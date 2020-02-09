@@ -17,6 +17,8 @@ public class Produto {
 
     private String categoria;
 
+    private int quantidade;
+
     public Integer getId() {
         return id;
     }
@@ -36,5 +38,13 @@ public class Produto {
 
     public void setCategoria(String categoria) {
         this.categoria = categoria;
+    }
+
+    public void setQuantidade(int quantidade){
+        this.quantidade = quantidade;
+    }
+
+    public int getQuantidade(){
+        return this.quantidade;
     }
 }
